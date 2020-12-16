@@ -20,7 +20,7 @@
   boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
 
   networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+  networking.networkmanager.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Set your time zone.
   time.timeZone = "Europe/London";
@@ -29,7 +29,7 @@
   # Per-interface useDHCP will be mandatory in the future, so this generated config
   # replicates the default behaviour.
   networking.useDHCP = false;
-  networking.interfaces.enp0s3.useDHCP = true;
+  #networking.interfaces.enp0s3.useDHCP = true;
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
