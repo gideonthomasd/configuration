@@ -112,7 +112,7 @@ services.xserver.windowManager.openbox.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.phil = {
      isNormalUser = true;
-     extraGroups = [ "wheel" "phil" ]; # Enable ‘sudo’ for the user.
+     extraGroups = [ "wheel" "networkmanager" "phil" ]; # Enable ‘sudo’ for the user.
    };
 
 nixpkgs.config.allowUnfree = true;
