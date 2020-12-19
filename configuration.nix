@@ -20,7 +20,7 @@
   boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
 
   networking.hostName = "nixos"; # Define your hostname.
-  networking.networkmanager.enable = true;  # Enables wireless support via wpa_supplicant.
+  networking.networkmanager.enable = true;  # Enables wireless support via networkmanager.
 
   # Set your time zone.
   time.timeZone = "Europe/London";
@@ -151,6 +151,7 @@ xterm
 plank
 obconf
 unzip
+zoom-us
 ];
 
 
