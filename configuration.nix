@@ -106,6 +106,7 @@ services.xserver.windowManager.openbox.enable = true;
   sound.enable = true;
   hardware.pulseaudio.enable = true;
   
+  ################## BLUETOOTH ########################
   ##hardware.bluetooth.enable = true;
   ##services.blueman.enable = true;
 
