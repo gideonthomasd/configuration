@@ -156,6 +156,8 @@ plank
 obconf
 unzip
 zoom-us
+etcher
+luna-icons
 ];
 
 
