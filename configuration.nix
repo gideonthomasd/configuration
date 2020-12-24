@@ -109,6 +109,15 @@ services.xserver.windowManager.openbox.enable = true;
   ################## BLUETOOTH ########################
   ##hardware.bluetooth.enable = true;
   ##services.blueman.enable = true;
+  
+  ################## NVIDIA ###########################
+  ##services.xserver.videoDrivers = [ "nvidia" ];
+  ##hardware.opengl.driSupport32Bit = true;
+  ##hardware.opengl.extraPackages32 = with pkgs.pkgsi686Linux; [ libva ];
+  ##hardware.pulseaudio.support32Bit = true;
+
+  
+  
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
@@ -158,6 +167,7 @@ unzip
 zoom-us
 etcher
 luna-icons
+pciutils
 ];
 
 
