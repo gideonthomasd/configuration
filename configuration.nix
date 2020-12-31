@@ -100,6 +100,8 @@ enable = true;
 #######openbox##########
 services.xserver.windowManager.openbox.enable = true;
 
+#######fluxbox#########
+services.xserver.windowManager.fluxbox.enable = true;
  
 
   # Enable sound.
@@ -168,6 +170,12 @@ zoom-us
 etcher
 luna-icons
 pciutils
+evince
+vlc
+mpv-unwrapped
+fluxbox
+fbpanel
+fbmenugen
 ];
 
 
