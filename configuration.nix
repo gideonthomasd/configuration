@@ -114,11 +114,15 @@ services.xserver.windowManager.fluxbox.enable = true;
   
   ################## NVIDIA ###########################
   ##services.xserver.videoDrivers = [ "nvidia" ];
+  ##hardware.opengl.enable = true;
   ##hardware.opengl.driSupport32Bit = true;
   ##hardware.opengl.extraPackages32 = with pkgs.pkgsi686Linux; [ libva ];
   ##hardware.pulseaudio.support32Bit = true;
 
-  
+  ##services.flatpak.enable = true;
+  ##xdg.portal.enable = true;
+  ######In Terminal do $ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  ###### and install Steam flatpak
   
 
   # Enable touchpad support (enabled default in most desktopManager).
