@@ -102,6 +102,9 @@ services.xserver.windowManager.openbox.enable = true;
 
 #######fluxbox#########
 services.xserver.windowManager.fluxbox.enable = true;
+
+#######pekwm#########
+services.xserver.windowManager.pekwm.enable = true;
  
 
   # Enable sound.
@@ -170,7 +173,7 @@ xterm
 plank
 obconf
 unzip
-zoom-us
+#zoom-us
 etcher
 luna-icons
 pciutils
@@ -180,6 +183,7 @@ mpv-unwrapped
 fluxbox
 fbpanel
 fbmenugen
+brave
 ];
 
 
