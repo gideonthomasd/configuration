@@ -184,6 +184,7 @@ fluxbox
 fbpanel
 fbmenugen
 brave
+bibata-cursors
 ];
 
 
