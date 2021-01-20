@@ -185,6 +185,7 @@ fbpanel
 fbmenugen
 brave
 bibata-cursors
+stalonetray
 ];
 
 
