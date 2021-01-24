@@ -187,6 +187,7 @@ brave
 bibata-cursors
 stalonetray
 kitty
+gsimplecal
 ];
 
 
