@@ -186,6 +186,7 @@ fbmenugen
 brave
 bibata-cursors
 stalonetray
+kitty
 ];
 
 
