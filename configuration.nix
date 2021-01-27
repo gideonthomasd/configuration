@@ -188,6 +188,7 @@ bibata-cursors
 stalonetray
 kitty
 gsimplecal
+sakura
 ];
 
 
