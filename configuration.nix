@@ -105,6 +105,14 @@ services.xserver.windowManager.fluxbox.enable = true;
 
 #######pekwm#########
 services.xserver.windowManager.pekwm.enable = true;
+
+#######Awesome#########
+services.xserver.windowManager.awesome = {
+  enable = true;
+  luaModules = [
+    pkgs.luaPackages.vicious
+    ];
+ };
  
 
   # Enable sound.
