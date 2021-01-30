@@ -86,6 +86,7 @@ services.xserver.windowManager.i3.package = pkgs.i3-gaps;
 ###########Fonts###################
 fonts.fonts = with pkgs; [
 noto-fonts
+font-awesome-ttf
 cantarell-fonts
 noto-fonts-emoji
 google-fonts
@@ -113,6 +114,10 @@ services.xserver.windowManager.awesome = {
     pkgs.luaPackages.vicious
     ];
  };
+ 
+ #######Spectrwm#########
+services.xserver.windowManager.spectrwm.enable = true;
+
  
 
   # Enable sound.
@@ -197,6 +202,7 @@ stalonetray
 kitty
 gsimplecal
 sakura
+polybar
 ];
 
 
