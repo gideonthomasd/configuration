@@ -118,6 +118,11 @@ services.xserver.windowManager.awesome = {
  #######Spectrwm#########
 services.xserver.windowManager.spectrwm.enable = true;
 
+ #######Xmonad#########
+services.xserver.windowManager.xmonad.enable = true;
+services.xserver.windowManager.xmonad.enableContribAndExtras = true;
+
+
  
 
   # Enable sound.
@@ -203,6 +208,8 @@ kitty
 gsimplecal
 sakura
 polybar
+binutils
+xmobar
 ];
 
 
