@@ -57,6 +57,9 @@
   # Important to resolve .local domains of printers, otherwise you get an error
   # like  "Impossible to connect to XXX.local: Name or service not known"
   services.avahi.nssmdns = true;
+  ######NETWORK##########
+  ##Do $ lpinfo --include-schemes dnssd -v   # Get and copy Brother%20MFC.....
+  ## Put into ipp instead of Networking.  ipp://Brother%20MFC.......
 
   services.xserver.enable = true;
   services.xserver.displayManager.lightdm.enable = true;
