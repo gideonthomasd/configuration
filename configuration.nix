@@ -60,6 +60,8 @@
   ######NETWORK##########
   ##Do $ lpinfo --include-schemes dnssd -v   # Get and copy Brother%20MFC.....
   ## Put into ipp instead of Networking.  ipp://Brother%20MFC.......
+  ## From lpinfo choose it without 'printer' in file.  SHARE and FROM INTERNET as options.
+  ## Put in ip-everywhere in options for driver
 
   services.xserver.enable = true;
   services.xserver.displayManager.lightdm.enable = true;
