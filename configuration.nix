@@ -51,6 +51,12 @@
   # Enable CUPS to print documents.
   services.printing.enable = true;
   services.printing.drivers = [ pkgs.brlaser ];
+  
+  services.avahi.publish.userServices = true;
+  services.avahi.enable = true;
+  # Important to resolve .local domains of printers, otherwise you get an error
+  # like  "Impossible to connect to XXX.local: Name or service not known"
+  services.avahi.nssmdns = true;
 
   services.xserver.enable = true;
   services.xserver.displayManager.lightdm.enable = true;
@@ -122,7 +128,8 @@ services.xserver.windowManager.spectrwm.enable = true;
 services.xserver.windowManager.xmonad.enable = true;
 services.xserver.windowManager.xmonad.enableContribAndExtras = true;
 
-
+#######leftwm#########
+services.xserver.windowManager.leftwm.enable = true; 
  
 
   # Enable sound.
