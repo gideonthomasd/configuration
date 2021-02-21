@@ -18,6 +18,7 @@
   # boot.loader.efi.efiSysMountPoint = "/boot/efi";
   # Define on which hard drive you want to install Grub.
   boot.loader.grub.device = "/dev/sda"; # or "nodev" for efi only
+  #boot.loader.grub.useOSProber = true; # windows system
 
   networking.hostName = "nixos"; # Define your hostname.
   networking.networkmanager.enable = true;  # Enables wireless support via networkmanager.
@@ -244,6 +245,7 @@ sakura
 polybar
 binutils
 xmobar
+xournalpp
 ];
 
 
