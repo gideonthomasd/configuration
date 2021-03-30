@@ -221,6 +221,7 @@ openbox
 tint2
 xarchiver
 openbox-menu
+lxmenu-data
 menumaker
 xterm
 plank
