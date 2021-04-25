@@ -247,6 +247,8 @@ polybar
 binutils
 xmobar
 xournalpp
+i3lock
+i3lock-fancy
 ];
 
 
