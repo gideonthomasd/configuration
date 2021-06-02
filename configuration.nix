@@ -96,7 +96,7 @@ src = builtins.fetchGit https://github.com/gideonthomasd/mydwm.git;
 #
 ];
 
-services.xserver.displayManager.defaultSession = "none+dwm";
+services.xserver.displayManager.defaultSession = "none+bspwm";
 services.xserver.windowManager.dwm.enable = true;
 
 #######i3##################
