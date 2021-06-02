@@ -156,7 +156,7 @@ services.xserver.windowManager.xmonad.enableContribAndExtras = true;
 services.xserver.windowManager.leftwm.enable = true; 
 
 #######Qtile#########
-services.xserver.windowManager.qtile.enable = true; 
+#services.xserver.windowManager.qtile.enable = true; 
 
  
 
