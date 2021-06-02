@@ -77,23 +77,23 @@ src = builtins.fetchGit https://github.com/gideonthomasd/mydwm.git;
 });
 })
 
-(self: super: {
-			qtile = super.qtile.overrideAttrs(oldAttrs: {
-				pythonPath = oldAttrs.pythonPath ++ (with self.python37Packages;[
-				keyring
-				xcffib
-				setuptools
-				setuptools_scm
-				dateutil
-				dbus-python
-				mpd2
-				psutil
-				pyxdg
-				pygobject3
-				]);
-				});
-				})
-
+#(self: super: {
+#			qtile = super.qtile.overrideAttrs(oldAttrs: {
+#				pythonPath = oldAttrs.pythonPath ++ (with self.python37Packages;[
+#				keyring
+#				xcffib
+#				setuptools
+#				setuptools_scm
+#				dateutil
+#				dbus-python
+#				mpd2
+#				psutil
+#				pyxdg
+#				pygobject3
+#				]);
+#				});
+#				})
+#
 ];
 
 services.xserver.displayManager.defaultSession = "none+dwm";
@@ -249,6 +249,7 @@ xmobar
 xournalpp
 i3lock
 i3lock-fancy
+youtube-dl
 ];
 
 
@@ -279,7 +280,7 @@ i3lock-fancy
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "20.09"; # Did you read the comment?
+  system.stateVersion = "21.05"; # Did you read the comment?
 
 }
 
