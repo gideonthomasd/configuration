@@ -250,6 +250,8 @@ xournalpp
 i3lock
 i3lock-fancy
 youtube-dl
+libreoffice
+gparted
 ];
 
 
