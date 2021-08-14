@@ -252,6 +252,7 @@ i3lock-fancy
 youtube-dl
 libreoffice
 gparted
+lxterminal
 ];
 
 
