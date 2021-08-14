@@ -82,23 +82,23 @@ src = builtins.fetchGit https://github.com/gideonthomasd/mydwm.git;
 });
 })
 
-#(self: super: {
-#			qtile = super.qtile.overrideAttrs(oldAttrs: {
-#				pythonPath = oldAttrs.pythonPath ++ (with self.python37Packages;[
-#				keyring
-#				xcffib
-#				setuptools
-#				setuptools_scm
-#				dateutil
-#				dbus-python
-#				mpd2
-#				psutil
-#				pyxdg
-#				pygobject3
-#				]);
-#				});
-#				})
-#
+(self: super: {
+			qtile = super.qtile.overrideAttrs(oldAttrs: {
+				pythonPath = oldAttrs.pythonPath ++ (with self.python37Packages;[
+				keyring
+				xcffib
+				setuptools
+				setuptools_scm
+				dateutil
+				dbus-python
+				mpd2
+				psutil
+				pyxdg
+				pygobject3
+				]);
+			});
+		})
+
 ];
 
 services.xserver.displayManager.defaultSession = "none+bspwm";
@@ -161,7 +161,7 @@ services.xserver.windowManager.xmonad.enableContribAndExtras = true;
 services.xserver.windowManager.leftwm.enable = true; 
 
 #######Qtile#########
-#services.xserver.windowManager.qtile.enable = true; 
+services.xserver.windowManager.qtile.enable = true; 
 
  
 
