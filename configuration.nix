@@ -115,6 +115,7 @@ services.xserver.windowManager.i3.package = pkgs.i3-gaps;
 
 ###########Fonts###################
 fonts.fonts = with pkgs; [
+iosevka
 noto-fonts
 font-awesome-ttf
 cantarell-fonts
