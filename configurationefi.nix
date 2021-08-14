@@ -259,6 +259,7 @@ youtube-dl
 gparted
 libreoffice
 lxterminal
+vim
 ];
 
 
