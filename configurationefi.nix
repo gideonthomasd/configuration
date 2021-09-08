@@ -260,6 +260,9 @@ gparted
 libreoffice
 lxterminal
 vim
+sxiv
+xdotool
+trayer
 ];
 
 
