@@ -258,6 +258,8 @@ vim
 xdotool
 sxiv
 trayer
+htop
+moc
 ];
 
 
