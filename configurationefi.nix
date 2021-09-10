@@ -265,6 +265,7 @@ xdotool
 trayer
 htop
 moc
+gsimplecal
 ];
 
 
