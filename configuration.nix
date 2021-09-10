@@ -260,6 +260,7 @@ sxiv
 trayer
 htop
 moc
+gsimplecal
 ];
 
 
