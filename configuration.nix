@@ -261,6 +261,7 @@ trayer
 htop
 moc
 gsimplecal
+volumeicon
 ];
 
 
